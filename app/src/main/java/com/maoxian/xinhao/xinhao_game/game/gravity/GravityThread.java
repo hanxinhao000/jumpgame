@@ -221,7 +221,7 @@ public class GravityThread extends Thread {
                 }
             }
 
-
+//.................................
         }
 
 

@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
         gameMainView.startGame();
 
+        gameMainView.puaseGame();
+
+        gameMainView.stopGame();
+
 
 
 

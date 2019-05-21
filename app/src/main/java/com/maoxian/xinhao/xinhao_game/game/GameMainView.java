@@ -97,9 +97,9 @@ public class GameMainView extends View implements GravityListener, Accelerometer
 
         b = BitmapFactory.decodeResource(mContext.getResources(), R.mipmap.missions_progress_bar_on_b);
 
-        l = BitmapFactory.decodeResource(mContext.getResources(), R.mipmap.likright_l);
+        l = BitmapFactory.decodeResource(mContext.getResources(), R.mipmap.likleft_r);
 
-        r = BitmapFactory.decodeResource(mContext.getResources(), R.mipmap.likleft_r);
+        r = BitmapFactory.decodeResource(mContext.getResources(), R.mipmap.likright_l);
 
         arrayList = new ArrayList<>();
         temp = new ArrayList<>();

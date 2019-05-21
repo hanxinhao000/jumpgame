@@ -76,7 +76,6 @@ public class Ladder {
             return mLadder;
         }
 
-
     }
 
 

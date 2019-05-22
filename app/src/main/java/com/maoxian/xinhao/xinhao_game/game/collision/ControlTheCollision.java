@@ -107,14 +107,10 @@ public class ControlTheCollision {
             int ladderY = ladderTempData.getLadderY();
             int ladderX = ladderTempData.getLadderX();
 
-            Log.e("坐标 X", "x:" + x + " ladderX:" + ladderX + " stopladderX:" + (ladderX + 300));
-            Log.e("坐标 Y", "t:" + (ladderY + 5) + " b:" + (ladderY - 5) + " mLocationY:" + mLocationY);
-
             if (mLocationY < (ladderY + 50) && mLocationY > (ladderY - 50) && x > (ladderX - 40) && x < (ladderX + 300)) {
 
                 gravityThread.height = ladderY + 20;
 
-                Log.e("坐标", "--------------------------");
                 break;
 
             } else {
